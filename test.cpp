@@ -8,4 +8,3 @@ TEST_CASE( "Checking the sign of a number", "[Sign]") {
     REQUIRE( Sign(-9) == -1);
     REQUIRE( Sign(1) == 1);
 }
-
