@@ -61,7 +61,7 @@ int Factorial(int n){
   if (n ==0 ){
     return 1;
   }
-  return n * factorial (n - 1);
+  return n * Factorial (n - 1);
 }
 
 // returns -1 if the number is negative and 1 if positive

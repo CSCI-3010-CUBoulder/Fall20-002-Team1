@@ -1,6 +1,6 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-#include "functions_to_implment.cpp"
+#include "functions_to_implement.cpp"
 #include <vector>
 
 TEST_CASE( "Factorials tested", "[factorial]"){
