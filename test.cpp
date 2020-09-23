@@ -3,7 +3,6 @@
 #include "functions_to_implement.cpp"
 #include <vector>
 
-
 TEST_CASE ("FIB numbers are computed", "[NthFibonacci]")
 {
     REQUIRE(Nthfibonacci(0) == 0);
@@ -11,6 +10,7 @@ TEST_CASE ("FIB numbers are computed", "[NthFibonacci]")
     REQUIRE(Nthfibonacci(2) == 1);
     REQUIRE(Nthfibonacci(3) == 2);
 }
+
 TEST_CASE( "Factorials tested", "[factorial]"){
   REQUIRE( Factorial(0) == 1);
   REQUIRE( Factorial(1) == 1);
